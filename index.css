@@ -55,13 +55,12 @@ body{
     padding-top: 15px;
     width: 60%;
     margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 }
-.des{
-    padding: 10px 20px;
-    border-radius: 5px;
-    margin: 0 5px;
-    /* display: none; */
-}
+ 
+
 .buttons button{
     padding: 10px 20px;
     border-radius: 5px;
@@ -95,4 +94,5 @@ body{
     .right{
         width: 100%;
     }
+ 
 }
